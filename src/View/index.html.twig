@@ -1,0 +1,47 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    <h1>{{title}}</h1>
+{% endblock %}
+
+{% block content %}
+<style>li{list-style:none;}</style>
+
+    <ul class="row"> 
+        {% for product in products %}
+         
+        <li class="col-sm-4 col-4"> 
+      
+            <div class="card">
+                <div class="card-body">
+                    {{ product }}
+                </div>
+            </div>
+                         
+        </li>
+        {% endfor %}
+
+    </ul>
+     
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

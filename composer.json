@@ -1,0 +1,19 @@
+{
+    "name": "caro/quete_twig",
+    "description": "Quete Twig",
+    "authors": [
+        {
+            "name": "caroww",
+            "email": "caroline.ww@wanadoo.fr"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/Controler"
+        }
+    }
+}
+
